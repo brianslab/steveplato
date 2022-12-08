@@ -1,0 +1,24 @@
+{
+  "name": "steveplato",
+  "version": "1.0.0",
+  "description": "A moderation bot for the YerbaMateo discord server",
+  "main": "src",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node src/deploy-commands.js && node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianslab/steveplato.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianslab/steveplato/issues"
+  },
+  "homepage": "https://github.com/brianslab/steveplato#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1"
+  }
+}
