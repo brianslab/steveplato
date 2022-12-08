@@ -4,6 +4,7 @@ const { Client, Collection, Events, GatewayIntentBits } = require('discord.js');
 const { discord } = require('./config/keys.js');
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent, GatewayIntentBits.GuildMembers] });
+// const client = new Client ({ intents: [GatewayIntentBits.Guilds] })
 
 client.commands = new Collection();
 const commandsPath = path.join(__dirname, 'commands');
